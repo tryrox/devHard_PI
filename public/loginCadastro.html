@@ -18,7 +18,7 @@
             </div>
             <div>
                 <form action="">
-                    <input id="inputBusca" type="text" placeholder="Busque aqui">
+                    <input id="inputBusca" type="search" placeholder="Busque aqui">
                     <input id="botaoEnviar" type="submit" title="Buscar" name="Buscar">
                     <label id="labelBuscar" for="botaoEnviar">Buscar</label>
                 </form>
@@ -47,7 +47,40 @@
             <a href="#">DEPARTAMENTOS ▼</a>
         </nav>
     </header>
+    <main>
+        <section id="indentificao">
+            IDENTIFICAÇÃO
+        </section>
+        <section id="containerLoginCadastro">
+            <section id="login">
+                <article id="loginTitulo">JÁ TENHO CADASTRO</article>
+                <form action="">
+                    <input type="email" name="loginEmail" id="loginEmail" placeholder="E-MAIL *">
+                    <br>
+                    <input type="password" name="loginSenha" id="loginSenha" placeholder="SENHA *">
+                    <br>
+                    <input type="submit" value="ENTRAR" id="loginEntrar" name="loginEntrar">
+                </form>
 
+            </section>
+            <section id="cadastro">
+                <article id="cadastroTitulo">QUERO ME CADASTRAR</article>
+                <form action="">
+                    <input type="email" name="cadastroEmail" id="cadastroEmail" placeholder=" E-MAIL *">
+                    <br>
+                    <input type="password" name="cadastroSenha" id="cadastroSenha" placeholder="CRIE SUA SENHA *">
+                    <br>
+                    <input type="password" name="cadastroSenhaConfirmar" id="cadastroSenhaConfirmar" placeholder="CONFIRMAR SENHA *">
+                    <br>
+                    <input type="number" name="cadastroCPF" id="cadastroCPF" placeholder="CPF ou CNPJ *">
+                    <br>
+                    <input type="number" name="cadastroCEP" id="cadastroCEP" placeholder="CEP *" />
+                    <br>
+                    <input type="submit" value="CADASTRAR" id="cadastroEntrar" name="cadastroEntrar">
+                </form>
+            </section>
+        </section>
+    </main>
 </body>
 
 </html>
