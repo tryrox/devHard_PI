@@ -218,8 +218,6 @@ h1{
 
 
 
-
-
 /* CSS PRODUTOS */
 main{
     display: flex;
@@ -243,6 +241,10 @@ main h1{
     height: 30vw;
 }
 
+p1{
+    color: #E74C3C;
+}
+
 #blocoDeValores{
     display:flex;
     flex-direction: column;
@@ -250,21 +252,40 @@ main h1{
     height: 30vh;
 
 }
+#compras{
+    display: flex;
+    flex-direction: column;
+}
+
+#comprar{
+    text-decoration: none;
+    background-color: #E74C3C;
+    color: black;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 18px;
+
+}
+
+#carrinho{
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 18px;
+}
+
 
 .descricao{
-    padding-left: 30%;
+    padding-left: 15%;
     margin-top: 100px;
-
+    color: blue;
 }
 
-footer{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    background: orangered;
-    color: white;
+.sobreOProduto{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 5px;
 }
 
-.main-content{
-    display: flex;
-}
+
