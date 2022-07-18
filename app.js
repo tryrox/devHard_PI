@@ -9,9 +9,20 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-// view engine setup
+// view engine setup e renderizando a pagina home
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.get('/home', function(req, res){
+res.render('home')
+});
+
+app.get('/', function (req, res){
+  res.json({name: 'gustavo', idade:20})
+});
+
+app.listen(3000, function(){
+
+})
 
 app.use(logger('dev'));
 app.use(express.json());
