@@ -10,7 +10,7 @@ var carrinhoRouter = require('./routes/carrinho');
 var produtosRouter = require( './routes/produtos');
 var app = express();
 
-// view engine setup e renderizando a pagina home
+// view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
