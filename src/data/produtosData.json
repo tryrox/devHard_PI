@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nome": "Xbox Series X",
+    "preco": 2099.00,
+    "departamento": "consoles"
+  },
+  {
+    "id": 2,
+    "nome": "Processador i5",
+    "preco": 970.00,
+    "departamento": "softwares"
+  },
+  {
+    "id": 3,
+    "nome": "Monitor 144hz",
+    "preco": 1070.00,
+    "departamento": "monitores"
+  }
+]
