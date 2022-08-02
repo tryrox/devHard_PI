@@ -13,5 +13,17 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "nodemon": "^2.0.19"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tryrox/devHard_PI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tryrox/devHard_PI/issues"
+  },
+  "homepage": "https://github.com/tryrox/devHard_PI#readme",
+  "description": ""
 }

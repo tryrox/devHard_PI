@@ -10,3 +10,21 @@ router.get('/detalhes', (req,res) => {
 })
 
 module.exports = router;
+
+//Rota do formulario
+app.get("/addProdutos", (req, res) =>{
+  res.send("Página do formulário")
+});
+
+
+
+//Criar um produto
+server.post("/produtos", (req, res)=>{
+  const {name} = req.body;
+  produto.push(name);
+
+  return res.json(produto)
+});
+
+
+

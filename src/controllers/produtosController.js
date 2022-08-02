@@ -4,4 +4,10 @@ const produtosController = {
   }
 }
 
+const formularioController = {
+  get:(req, res) =>{
+    res.render ('addProdutos')
+  }
+}
+
 module.exports = produtosController
